@@ -35,3 +35,50 @@
   color: transparent;
   background-clip: text;
 }
+
+.galeria{
+  display: grid;
+  grid-template-areas: 
+    "img1 colDorada img2 img2"
+    "img1 img3 img3 img4";
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.brandImg{
+  background-image: url("../img/brandLogos.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.roundedProfile{
+  border: solid white 2px;
+  height: 200px;
+  width: 200px;
+}
+
+.profile1{
+  background-image: url("../img/perfilRedondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.borderGradient{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+.borderGradient:hover{
+  background: linear-gradient(#1D1D1B, #1D1D1B) padding-box,
+              linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%) border-box;
+  color: white;
+  transition: all 300ms ease-in;
+}
+.bgDorado{
+  background-image: linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%);
+}
