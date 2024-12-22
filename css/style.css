@@ -1,5 +1,6 @@
 .borderLink{
-  color: white;
+  color: black;
+  width: fit-content;
   text-decoration: none;
   background-image: linear-gradient(#E5AB87, #B37A5D);
   background-repeat: no-repeat;
@@ -9,12 +10,12 @@
 }
 
 .borderLink:hover {
-  color: #dddddd !important;
+  color: #6e6e6e !important;
   background-size: 100% 3px;
 }
 
 .borderLink:focus {
-  color: #dddddd !important;
+  color: #6e6e6e !important;
 }
 
 .borderBgDorado{
@@ -23,33 +24,17 @@
 
 }
 
-.bgMaria{
-  background-image: url("../img/Foto_2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .mariaGradient{
-  background-image: linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%);
+  background-image: linear-gradient(to right, #E9B390, #B47B5E, #E9B390);
   color: transparent;
   background-clip: text;
 }
 
 .galeria{
   display: grid;
-  grid-template-areas: 
-    "img1 colDorada img2 img2 img6"
-    "img1 img3 img3 img4 img5";
+  grid-template-columns: repeat(3, 1fr);   
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-}
-
-.brandImg{
-  background-image: url("../img/brandLogos.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .roundedProfile{
@@ -59,7 +44,25 @@
 }
 
 .profile1{
-  background-image: url("../img/perfilRedondo.jpg");
+  background-image: url("../img/Recurso6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.profile2{
+  background-image: url("../img/Recurso7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.profile3{
+  background-image: url("../img/Recurso8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.profile4{
+  background-image: url("../img/Recurso9.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -69,16 +72,37 @@
   height: 200px;
   width: 200px;
   background: linear-gradient(white, white) padding-box,
-              linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%) border-box;
+              linear-gradient(to right, #E9B390, #B47B5E, #E9B390) border-box;
   border-radius: 50em;
   border: 4px solid transparent;
 }
 .borderGradient:hover{
   background: linear-gradient(#1D1D1B, #1D1D1B) padding-box,
-              linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%) border-box;
+              linear-gradient(to right, #E9B390, #B47B5E, #E9B390) border-box;
   color: white;
   transition: all 300ms ease-in;
 }
 .bgDorado{
-  background-image: linear-gradient(to right, #E9B390 35%, #B47B5E 30%, #E9B390 35%);
+  background-image: linear-gradient(to right, #E9B390, #B47B5E, #E9B390);
+}
+
+@media (min-width: 770px) {
+  .borderLink{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(#E5AB87, #B37A5D);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 0% 3px;
+    transition: background-size 500ms ease-in-out;
+  }
+  
+  .borderLink:hover {
+    color: #dddddd !important;
+    background-size: 100% 3px;
+  }
+  
+  .borderLink:focus {
+    color: #dddddd !important;
+  }
 }
