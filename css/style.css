@@ -109,6 +109,10 @@ body{
 .bgDorado{
   background-image: linear-gradient(to right, #E9B390, #B47B5E, #E9B390);
 }
+.gridF{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 @media (min-width: 770px) {
   .borderLink{
@@ -128,5 +132,12 @@ body{
   
   .borderLink:focus {
     color: #dddddd !important;
+  }
+}
+
+@media (min-width: 1024px){
+  .gridF{
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 1fr;
   }
 }
