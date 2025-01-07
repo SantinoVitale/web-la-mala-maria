@@ -113,6 +113,9 @@ body{
   display: grid;
   grid-template-columns: 1fr;
 }
+.shadow-text{
+  text-shadow: 3px 3px #383838;
+}
 
 @media (min-width: 770px) {
   .borderLink{
