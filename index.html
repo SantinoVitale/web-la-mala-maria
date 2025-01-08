@@ -99,7 +99,7 @@
       <div class="borderBgDorado"></div>
       <div class="tw-grid md:tw-grid-cols-2">
         <div>
-          <img src="./img/Recurso17R.png" alt="Foto SOMOS" class="tw-w-full">
+          <img src="./img/Recurso17.png" alt="Foto SOMOS" class="tw-w-full">
         </div>
         <div class="tw-p-5 tw-text-base lg:tw-p-16 md:tw-text-lg xl:tw-text-2xl tw-leading-loose tw-flex tw-flex-col tw-items-center tw-justify-center">
           <p class="tw-text-[#818282] text-justify">Una Bodega joven referente en el mercado nacional e internacional, de excelencia con compromisos sustentables.</p>
@@ -114,39 +114,67 @@
       <div class="tw-p-5 tw-text-base lg:tw-p-16 md:tw-text-lg xl:tw-text-2xl tw-leading-loose tw-flex tw-flex-col tw-items-center tw-justify-center">
         <p class="text-justify">Apasionados con el vino y su industria, tuvimos la suerte de coincidir en un sueño, hoy hecho realidad. Comenzamos con un objetivo claro, disfrutar de lo que hacíamos. Hoy seguimos sorprendiéndonos de lo que cada año logramos, hacemos y construimos.</p>
       </div>
-      <div class="tw-flex tw-justify-start tw-items-center">
-        <img src="./img/MariaCeleste.png" alt="Foto Maria Celeste" class="tw-w-full">
-        <h1 class="tw-absolute mariaGradient tw-px-24 tw-text-2xl md:tw-text-4xl xl:tw-text-7xl">MARÍA CELESTE</h1>
+      
+        <div id="carouselComercial" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="tw-flex tw-justify-start tw-items-center">
+                <img src="./img/MariaCeleste.png" alt="Foto Maria Celeste" class="tw-w-full">
+                <div class="tw-absolute tw-bg-black/50 tw-w-1/2 tw-mx-10 tw-p-5">
+                  <h1 class="mariaGradient tw-px-24 tw-text-2xl md:tw-text-4xl xl:tw-text-6xl">MARÍA CELESTE</h1>
+                  <p class="tw-text-white tw-italic">Luego de especializarme como técnica y consumidora en el viejo continente (Francia, España y Escocia), detecté que en Argentina la cultura del Vermut estaba paralizada. Se había perdido el hábito que supieron tener nuestros abuelos inmigrantes. </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="tw-flex tw-justify-start tw-items-center">
+                <img src="./img/LucianoAlbarracin.jpg" alt="Foto Luciano Albarracin" class="tw-w-full">
+                <div class="tw-absolute tw-bg-black/50 tw-w-1/2 tw-mx-10 tw-p-5">
+                  <h1 class="mariaGradient tw-px-24 tw-text-2xl md:tw-text-4xl xl:tw-text-6xl">LUCIANO ALBARRACÍN</h1>
+                  <p class="tw-text-white tw-italic">En 2017 elaboramos nuestras primeras 1.000 botellas y hoy estamos en 200.000 botellas al año, entre vino y vermut. Entre otros potenciales proyectos que nos motivan e ilusionan como el primer día.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="Productos">
       <h2 class="tw-py-24 tw-text-center tw-font-bold">Nuestros productos</h2>
       <div class="container my-4">
-        <div class="row">
-          <div class="col-md-6 d-flex flex-column">
-            <!-- Botella grande -->
-            <div class="mb-3">
-              <img src="./img/Recurso18.png" alt="Botella grande" class="img-fluid">
-            </div>
-          </div>
-          <!-- Segunda columna (galería de imágenes más pequeñas) -->
-          <div class="col-md-6">
-            <div class="row mb-3">
-              <!-- Imagen superior derecha -->
-              <div class="col-12">
-                <img src="./img/Recurso20.png" alt="Imagen derecha superior" class="img-fluid">
+        <div id="carouselProductos" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="tw-p-16 tw-flex tw-flex-col lg:tw-flex-row tw-justify-center tw-gap-5">
+                <div class="tw-flex tw-flex-col tw-w-full lg:tw-w-1/3 tw-gap-5">
+                  <img src="./img/producto6.png" alt="" class="tw-h-full">
+                </div>
+                <div class="tw-flex tw-flex-col tw-w-full lg:tw-w-1/3 tw-gap-5">
+                  <img src="./img/producto8.png" alt="" class="tw-h-full">
+                  <img src="./img/producto10.png" alt="" class="tw-h-full">
+
+                </div>
+                <div class="tw-flex tw-flex-col tw-w-full lg:tw-w-1/3 tw-gap-5">
+                  <img src="./img/producto9.png" alt="" class="tw-h-full">
+                  <img src="./img/producto11.png" alt="" class="tw-h-full">
+                  <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="1" class="active tw-border-none tw-bg-transparent" aria-current="true" aria-label="Slide 2"><img src="./img/Recurso23.png" alt=""></button>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <!-- Imagen inferior izquierda -->
-              <div class="col-md-6">
-                <img src="./img/Recurso19.png" alt="Imagen inferior izquierda" class="img-fluid">
-              </div>
-              <!-- Imagen inferior derecha -->
-              <div class="col-md-6">
-                <div class="row tw-gap-5">
-                  <img src="./img/Recurso21.png" alt="Imagen inferior derecha" class="img-fluid">
-                  <img src="./img/Recurso22.png" alt="Imagen inferior derecha" class="img-fluid">
+            <div class="carousel-item">
+              <div class="tw-p-16 tw-flex tw-flex-col lg:tw-flex-row tw-justify-center tw-gap-5">
+                <div class="tw-flex tw-flex-col tw-w-full lg:tw-w-1/3 tw-gap-5">
+                  <img src="./img/producto1.png" alt="" class="tw-h-full">
+                </div>
+                <div class="tw-flex tw-flex-col tw-w-full lg:tw-w-1/3 tw-gap-5">
+                  <img src="./img/producto2.png" alt="" class="tw-h-full">
+                  <img src="./img/producto4.png" alt="" class="tw-h-full">
+
+                </div>
+                <div class="tw-flex tw-flex-col tw-w-full lg:tw-w-1/3 tw-gap-5">
+                  <img src="./img/producto3.png" alt="" class="tw-h-full">
+                  <img src="./img/producto7.png" alt="" class="tw-h-full">
+                  <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="0" class="active tw-border-none tw-bg-transparent" aria-current="true" aria-label="Slide 1"><img src="./img/Recurso24.png" alt=""></button>
                 </div>
               </div>
             </div>
@@ -155,20 +183,22 @@
       </div>
     </div>
     <div class="tw-flex tw-flex-wrap tw-gap-5 tw-justify-evenly tw-w-full tw-my-10 tw-p-3">
-      <div id="carouselExampleSlidesOnly" class="carousel slide tw-w-full" data-bs-ride="carousel" data-bs-interval="1000">
+      <div id="carouselExampleSlidesOnly" class="carousel slide tw-w-full" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/Recurso31.png" alt="" class="tw-h-24">
-            <img src="./img/Recurso32.png" alt="" class="tw-h-24">
-            <img src="./img/Recurso33.png" alt="" class="tw-h-24">
-            <img src="./img/Recurso34.png" alt="" class="tw-h-24">
-            <img src="./img/Recurso35.png" alt="" class="tw-h-24">
+            <div class="tw-flex tw-justify-evenly tw-items-center">
+              <img src="./img/malamariawines.png" alt="" class="tw-h-24">
+              <img src="./img/bumbum_marca.png" alt="" class="tw-h-24">
+              <img src="./img/lmmbrujosbotanistas.png" alt="" class="tw-h-24">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <div class="tw-flex tw-justify-evenly tw-items-center">
+              <img src="./img/naranjo_marca.png" alt="" class="tw-h-24">
+              <img src="./img/petricore_marca.png" alt="" class="tw-h-24">
+              <img src="./img/lmmvermut_marca.png" alt="" class="tw-h-24">
+              <img src="./img/lerefuge_marca.png" alt="" class="tw-h-24">
+            </div>
           </div>
         </div>
       </div>
@@ -210,8 +240,17 @@
         <h2 class="text-center tw-text-white tw-font-bold tw-tracking-widest">NUESTRO EQUIPO</h2>
       </div>
       <div class="borderBgDorado"></div>
-        <div>
-          <img src="./img/NuestroEquipo.png" alt="Foto Equipo" class="tw-w-full">
+      <div id="carouselEquipo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/NuestroEquipo.png" alt="Foto Equipo" class="tw-w-full">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fotoEquipo2.jpg" alt="Foto Equipo" class="tw-w-full">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fotoEquipo3.jpg" alt="Foto Equipo" class="tw-w-full">
+          </div>
         </div>
       </div>
     </div>
@@ -261,8 +300,21 @@
         <h2 class="text-center tw-text-white tw-font-bold tw-tracking-widest">TURISMO</h2>
       </div>
       <div class="borderBgDorado"></div>
-        <div>
-          <img src="./img/Recurso11.png" alt="Foto SOMOS" class="tw-w-full">
+        <div id="carouselTurismo" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/Turismo.jpg" class="d-block w-100" alt="Imagen turismo 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/Turismo1.jpg" class="d-block w-100" alt="Imagen turismo 2">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/Turismo2.jpg" class="d-block w-100" alt="Imagen turismo 3">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/Turismo3.jpg" class="d-block w-100" alt="Imagen turismo 4">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -282,7 +334,7 @@
             <p class="tw-text-sm">Visité La Mala María Vermutería y fue una experiencia sensorial increíble. A través de una rueda aromática, recorrimos su variado porfolio y logré conectar con mis memorias emotivas. Fue un verdadero viaje a mi niñez, evocando esos aromas que me hacen vibrar y me transportan al lugar donde nacen los vinos y el vermú.</p>
           </div>
           <div class="card-footer tw-flex tw-items-center">
-            <i class="bi bi-person-fill tw-text-3xl"></i>
+            <img src="./img/img_constanzaacosta.png" alt="Imagen Constanza Acosta" class="tw-w-1/6">
             <div class="tw-px-5">
               <h5>Constanza Acosta </h5>
               <p>Buenos Aires</p>
@@ -295,7 +347,7 @@
             <p class="tw-text-sm">Visita única e inolvidable, muy interesante y la guía de lujo…altamente recomendable!</p>
           </div>
           <div class="card-footer tw-flex tw-items-center">
-            <i class="bi bi-person-fill tw-text-3xl"></i>
+            <img src="./img/img_cruzaccastello.png" alt="Imagen Cruz Accastello" class="tw-w-1/6">
             <div class="tw-px-5">
               <h5>Cruz Accastello</h5>
               <p>Mendoza</p>
@@ -308,7 +360,7 @@
             <p class="tw-text-sm">Visitar la Vermu es traer al momento presente cada sensación… cada aroma … es darle el toque mágico final a la experiencia…</p>
           </div>
           <div class="card-footer tw-flex tw-items-center">
-            <i class="bi bi-person-fill tw-text-3xl"></i>
+            <img src="./img/img_desireegimenez.png" alt="Imagen Desiree Gimenez" class="tw-w-1/6">
             <div class="tw-px-5">
               <h5>Desiree Giménez </h5>
               <p>Córdoba</p>
