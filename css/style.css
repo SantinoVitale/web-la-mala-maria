@@ -68,19 +68,19 @@ body{
 }
 
 .profile1{
-  background-image: url("../img/rrhh1.png");
+  background-image: url("../img/rrhh1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .profile2{
-  background-image: url("../img/rrhh2.png");
+  background-image: url("../img/rrhh2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .profile3{
-  background-image: url("../img/rrhh3.png");
+  background-image: url("../img/rrhh3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -144,3 +144,13 @@ body{
     grid-template-columns: 1fr 0.25fr 1fr;
   }
 } 
+
+.carousel-item{
+  transition: transform 3s ease-in-out, opacity 3s ease-in-out !important;
+}
+
+.carousel-fade .carousel-item{
+  opacity: 0;
+    transition-property: opacity;
+    transform: none;
+}
