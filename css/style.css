@@ -117,7 +117,7 @@ body{
   text-shadow: 3px 3px #383838;
 }
 .borderFooter{
-    color: black;
+    color: white;
     width: fit-content;
     text-decoration: none;
     background-image: linear-gradient(white, white);
@@ -129,12 +129,12 @@ body{
 
 }
 .borderFooter:hover {
-  color: #6e6e6e !important;
+  color: black !important;
   background-size: 100% 3px;
 }
 
 .borderFooter:focus {
-  color: #6e6e6e !important;
+  color: black !important;
 }
 
 @media (min-width: 770px) {
