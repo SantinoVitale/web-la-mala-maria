@@ -116,6 +116,26 @@ body{
 .shadow-text{
   text-shadow: 3px 3px #383838;
 }
+.borderFooter{
+    color: black;
+    width: fit-content;
+    text-decoration: none;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 0% 3px;
+    transition: background-size 500ms ease-in-out;
+    padding: 10px 0;
+
+}
+.borderFooter:hover {
+  color: #6e6e6e !important;
+  background-size: 100% 3px;
+}
+
+.borderFooter:focus {
+  color: #6e6e6e !important;
+}
 
 @media (min-width: 770px) {
   .borderLink{
